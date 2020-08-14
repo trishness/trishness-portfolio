@@ -3,6 +3,55 @@
 }
 
 .h1 {
+    display:flex;
     justify-content:center;
-    align-items:center;
+}
+
+h1 {
+    font-size: 100px;
+    margin:2rem;
+    background-color: lightgray;
+    opacity:70%;
+    width:86%;
+    margin-left:auto;
+    margin-right:auto;
+}
+#portfolio {
+    font-size: 80px;
+    width:94%;
+}
+
+.background {
+    background-color: lightgray;
+    opacity:80%;
+    width:86%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+
+.img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:79%;
+    padding-bottom:2rem;
+    opacity: 100%;
+}
+
+.about {
+    padding-top:3rem;
+}
+
+.width {
+    width:70%;
+}
+
+.cards {
+    padding-right:auto;
+    padding-left:auto;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content:center;
 }

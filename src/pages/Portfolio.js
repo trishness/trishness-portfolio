@@ -1,23 +1,22 @@
 import React from "react";
 import { Col, Row, Container } from "../components/Grid"
-import Wander from "../components/Card/Wander"
-import WineKey from "../components/Card/WineKey"
+import Projects from "../components/Card/index"
+// import WineKey from "../components/Card/WineKey"
 
 const Portfolio = () => {
     return (
         <>
-        <Container fluid>
-            <Row>
-                <Col size="md-6">
-                    <h1>Portfolio</h1>
-                </Col>
+        <Container fluid className="h1 center">
+      <Row>
+        <Col className="justify-content-center" size="md-12 sm-12">
+          <h1 id="portfolio" className="center">Portfolio</h1>
+        </Col>
             </Row>
         </Container>
-        <Container fluid>
+        <Container fluid className="cards">
             <Row>
-                <Col size="md-6">
-                    <Wander></Wander>
-                    <WineKey></WineKey>
+                <Col className="cards"size="md-12 sm-12">
+                    <Projects className="cards"></Projects>
                 </Col>
             </Row>
         </Container>

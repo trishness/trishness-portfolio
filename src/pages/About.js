@@ -2,44 +2,48 @@ import React from "react";
 import { Col, Row, Container } from "../components/Grid";
 import Carousel from "../components/Carousel"
 import style from "./style.css"
+import trish from "../components/Carousel/trish.jpg";
+import trish1 from "../components/Carousel/trish1.jpg";
+import trish3 from "../components/Carousel/trish3.jpg";
 
 const About = () => {
   return (
       <>
-    <Container fluid className="center">
+    <Container fluid className="h1 center">
       <Row>
-        <Col className="h1" size="md-6 sm-12">
-          <h1 className="center">Trish Ness</h1>
+        <Col className="justify-content-center" size="md-12 sm-12">
+          <h1 className="center">Hi, I'm Trish.</h1>
         </Col>
         </Row>
     </Container>
-    <Container>
-        <Row>
-        <Col size="md-6 sm-12">
-          <img src="../components/Carousel/trish.jpg" alt="Whoops!"/>
-        </Col>
-      </Row>
+    <img className="img" src={trish1} alt="whoops"/>
+    <Container fluid className="background">
+        
       <Row>
-        <Col size="med-6 sm-12">
-          <p className="center">I am a full stack developer with a background in management and office administration. This versatile history has embedded strong beliefs in teamwork, critical thinking and attention to detail within me.</p>
+        <Col className="bg" size="med-6 sm-12">
+          <p className="center background">I am a full stack developer with a background in management and office administration. This versatile history has embedded strong beliefs in teamwork, critical thinking and attention to detail within me.
           <br/>
-          <p className="center">Born and raised in Seattle, I have witnessed this industry bloom in one of the country's tech meccas over the past 20 years. I am excited to play my own role within this exciting, ever-changing and growing world!</p>
           <br/>
-          <p className="center"><strong>Technical Skills</strong></p>
+           Born and raised in Seattle, I have witnessed this industry bloom in one of the country's tech meccas over the past 20 years. I am excited to play my own role within this exciting, ever-changing and growing world!
           <br/>
-          <p className="center">HTML/CSS/Dynamic Generation</p>
           <br/>
-          <p className="center">JacaScript/jQuery</p>
           <br/>
-          <p className="center">ReactJS/JSX</p>
+           <strong>Technical Skills</strong>
           <br/>
-          <p className="center">Node</p>
           <br/>
-          <p className="center">Express Servers</p>
+           HTML/CSS/Dynamic Generation
           <br/>
-          <p className="center">MySQL/Sequenlize</p>
+           JacaScript/jQuery
           <br/>
-          <p className="center">Mongo/Mongoose</p>
+           ReactJS/JSX
+          <br/>
+           Node
+          <br/>
+           Express Servers
+          <br/>
+           MySQL/Sequenlize
+          <br/>
+           Mongo/Mongoose</p>
         </Col>
       </Row>
     </Container>
