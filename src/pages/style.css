@@ -50,6 +50,8 @@ h1 {
 }
 
 .cards {
+    display:flex;
+    flex-wrap:wrap;
     padding-right:auto;
     padding-left:auto;
     margin-left:auto;

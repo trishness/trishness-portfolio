@@ -10,6 +10,7 @@ import style from "./style.css"
 
 function Projects() {
     return (
+      <>
         <div className="card-deck">
             <div className="card">
       <div className="img-container">
@@ -30,6 +31,7 @@ function Projects() {
           </div>
       </div>
     </div>
+    <br></br>
     <div className="card">
         <div className="img-container">
         <img
@@ -49,6 +51,7 @@ function Projects() {
           </div>
       </div>
     </div>
+    <br></br>
     <div className="card">
         <div className="img-container">
         <img
@@ -68,6 +71,9 @@ function Projects() {
           </div>
       </div>
     </div>
+    </div>
+    <br></br>
+    <div className="card-deck">
     <div className="card">
         <div className="img-container">
         <img
@@ -87,6 +93,7 @@ function Projects() {
           </div>
       </div>
     </div>
+    <br></br>
     <div className="card">
         <div className="img-container">
         <img
@@ -106,6 +113,7 @@ function Projects() {
           </div>
       </div>
     </div>
+    <br></br>
     <div className="card">
         <div className="img-container">
         <img
@@ -126,6 +134,7 @@ function Projects() {
       </div>
     </div>
         </div>
+        </>
     )
 }
 

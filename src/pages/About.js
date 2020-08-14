@@ -12,16 +12,16 @@ const About = () => {
     <Container fluid className="h1 center">
       <Row>
         <Col className="justify-content-center" size="md-12 sm-12">
-          <h1 className="center">Hi, I'm Trish.</h1>
+          <h1 className="center rounded">Hi, I'm Trish.</h1>
         </Col>
         </Row>
     </Container>
-    <img className="img" src={trish1} alt="whoops"/>
+    <span class="border"><img className="img rounded rounded-bottom" src={trish1} alt="whoops"/></span>
     <Container fluid className="background">
         
       <Row>
         <Col className="bg" size="med-6 sm-12">
-          <p className="center background">I am a full stack developer with a background in management and office administration. This versatile history has embedded strong beliefs in teamwork, critical thinking and attention to detail within me.
+          <p className="center background rounded">I am a full stack developer with a background in management and office administration. This versatile history has embedded strong beliefs in teamwork, critical thinking and attention to detail within me.
           <br/>
           <br/>
            Born and raised in Seattle, I have witnessed this industry bloom in one of the country's tech meccas over the past 20 years. I am excited to play my own role within this exciting, ever-changing and growing world!

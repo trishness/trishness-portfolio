@@ -14,3 +14,10 @@
     justify-content:space-around;
     padding-bottom:1rem;
 }
+
+.card-deck {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-content:center;
+}
