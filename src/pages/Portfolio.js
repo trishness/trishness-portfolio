@@ -13,10 +13,10 @@ const Portfolio = () => {
         </Col>
             </Row>
         </Container>
-        <Container fluid className="cards">
+        <Container fluid className="cards center">
             <Row>
-                <Col className="cards"size="md-12 sm-12">
-                    <Projects className="cards"></Projects>
+                <Col className="cards center" size="md-12 sm-12">
+                    <Projects className="cards center"></Projects>
                 </Col>
             </Row>
         </Container>

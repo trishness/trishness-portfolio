@@ -3,6 +3,7 @@
     border-radius: 2px;
     margin: 1rem;
     position: relative;
+    align-content: center;
     width: 325px;
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
     text-align: center;
