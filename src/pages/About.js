@@ -9,7 +9,8 @@ import trish3 from "../components/Carousel/trish3.jpg";
 const About = () => {
   return (
       <>
-    <Container fluid className="h1 center">
+      <h1>trish</h1>
+    {/* <Container fluid className="h1 center">
       <Row>
         <Col className="justify-content-center" size="md-12 sm-12">
           <h1 className="center rounded">Hi, I'm Trish.</h1>
@@ -46,7 +47,7 @@ const About = () => {
            Mongo/Mongoose</p>
         </Col>
       </Row>
-    </Container>
+    </Container> */}
     </>
   );
 };
