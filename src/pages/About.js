@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row, Container } from "../components/Grid";
+// import { Col, Row, Container } from "../components/Grid";
 // import Carousel from "../components/Carousel"
 import style from "./style.css"
 import trish from "../components/Carousel/trish.jpg";
@@ -10,18 +10,18 @@ const About = () => {
   return (
       <>
       <h1>trish</h1>
-    {/* <Container fluid className="h1 center">
-      <Row>
-        <Col className="justify-content-center" size="md-12 sm-12">
+    <div className="container-fluid h1 center">
+      <div className="row">
+        <div className="col-md-12 sm-12 justify-content-center">
           <h1 className="center rounded">Hi, I'm Trish.</h1>
-        </Col>
-        </Row>
-    </Container>
+        </div>
+        </div>
+    </div>
     <span className="border"><img className="img rounded rounded-bottom" src={trish1} alt="whoops"/></span>
-    <Container fluid className="background">
+    <div className="container-fluid background">
         
-      <Row>
-        <Col className="bg" size="med-6 sm-12">
+      <div className="row">
+        <div className="col-md-6 sm-12 bg">
           <p className="center background rounded">I am a full stack developer with a background in management and office administration. This versatile history has embedded strong beliefs in teamwork, critical thinking and attention to detail within me.
           <br/>
           <br/>
@@ -45,9 +45,9 @@ const About = () => {
            MySQL/Sequenlize
           <br/>
            Mongo/Mongoose</p>
-        </Col>
-      </Row>
-    </Container> */}
+        </div>
+      </div>
+    </div>
     </>
   );
 };
