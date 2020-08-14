@@ -16,7 +16,7 @@ const About = () => {
         </Col>
         </Row>
     </Container>
-    <span class="border"><img className="img rounded rounded-bottom" src={trish1} alt="whoops"/></span>
+    <span className="border"><img className="img rounded rounded-bottom" src={trish1} alt="whoops"/></span>
     <Container fluid className="background">
         
       <Row>
