@@ -6,20 +6,20 @@ import Projects from "../components/Card/index"
 const Portfolio = () => {
     return (
         <>
-        <Container fluid className="h1 center">
-      <Row>
-        <Col className="justify-content-center" size="md-12 sm-12">
+        <div className="container-fluid h1 center">
+      <div className="row">
+        <div className="col-md-12 sm-12 justify-content-center">
           <h1 id="portfolio" className="center rounded">Portfolio</h1>
-        </Col>
-            </Row>
-        </Container>
-        <Container fluid className="cards center">
-            <Row>
-                <Col className="cards center" size="md-12 sm-12">
+        </div>
+            </div>
+        </div>
+        <div className="container-fluid cards center">
+            <div className="row">
+                <div className="col-md-12 sm-12 cards center">
                     <Projects className="cards center"></Projects>
-                </Col>
-            </Row>
-        </Container>
+                </div>
+            </div>
+        </div>
         </>
     )
 }
