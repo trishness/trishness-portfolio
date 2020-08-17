@@ -9,7 +9,6 @@ import trish3 from "../components/Carousel/trish3.jpg";
 const About = () => {
   return (
       <>
-      <h1>trish</h1>
     <div className="container-fluid h1 center">
       <div className="row">
         <div className="col-md-12 sm-12 justify-content-center">
@@ -21,7 +20,7 @@ const About = () => {
     <div className="container-fluid background">
         
       <div className="row">
-        <div className="col-md-6 sm-12 bg">
+        <div className="col-md-6 sm-12 bg justify-content-center">
           <p className="center background rounded">I am a full stack developer with a background in management and office administration. This versatile history has embedded strong beliefs in teamwork, critical thinking and attention to detail within me.
           <br/>
           <br/>
