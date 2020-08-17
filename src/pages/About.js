@@ -1,7 +1,7 @@
 import React from "react";
 // import { Col, Row, Container } from "../components/Grid";
 // import Carousel from "../components/Carousel"
-import style from "./style.css"
+// import style from "./style.css"
 import trish from "../components/Carousel/trish.jpg";
 import trish1 from "../components/Carousel/trish1.jpg";
 import trish3 from "../components/Carousel/trish3.jpg";
