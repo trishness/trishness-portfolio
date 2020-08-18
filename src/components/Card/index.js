@@ -73,6 +73,7 @@ function Projects() {
     </div>
     </div>
     <br></br>
+    <br></br>
     <div className="card-deck">
     <div className="card">
         <div className="img-container">

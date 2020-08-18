@@ -18,10 +18,10 @@ const About = () => {
         </div>
     </div>
     <span className="border"><img className="img rounded rounded-bottom" src={trish1} alt="whoops"/></span>
-    <div className="container-fluid background">
+    <div className="container-fluid background rounded">
         
       <div className="row">
-        <div className="col-md-6 sm-12 bg justify-content-center">
+        <div className="col-md-12 sm-12 bg justify-content-center">
           <p className="center background rounded">I am a full stack developer with a background in management and office administration. This versatile history has embedded strong beliefs in teamwork, critical thinking and attention to detail within me.
           <br/>
           <br/>
