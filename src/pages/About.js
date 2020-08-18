@@ -18,7 +18,7 @@ const About = () => {
         </div>
     </div>
     <span className="border"><img className="img rounded rounded-bottom" src={trish1} alt="whoops"/></span>
-    <div className="container-fluid background rounded">
+    <div className="container-fluid background rounded about">
         
       <div className="row">
         <div className="col-md-12 sm-12 bg justify-content-center">
