@@ -1,19 +1,19 @@
 import React from "react";
 // import { Col, Row, Container } from "../components/Grid";
 // import Carousel from "../components/Carousel"
-import "./style.css"
+// import "./style.css"
 import trish from "../components/Carousel/trish.jpg";
 import trish1 from "../components/Carousel/trish1.jpg";
 import trish3 from "../components/Carousel/trish3.jpg";
-
+import "./About.css"
 
 const About = () => {
   return (
       <>
-    <div className="container-fluid h1 center">
+    <div className="container-fluid justify-content-center">
       <div className="row">
         <div className="col-md-12 sm-12 justify-content-center">
-          <h1 className="center rounded">Hi, I'm Trish.</h1>
+          <h1 className="aboutTitle rounded">Hi, I'm Trish.</h1>
         </div>
         </div>
     </div>
