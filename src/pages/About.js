@@ -36,7 +36,7 @@ const About = () => {
               <br />
            HTML/CSS/Dynamic Generation
           <br />
-           JacaScript/jQuery
+           JavaScript/jQuery
           <br />
            ReactJS/JSX
           <br />
