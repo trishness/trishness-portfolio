@@ -9,46 +9,48 @@ import trish3 from "../components/Carousel/trish3.jpg";
 
 const About = () => {
   return (
-      <>
-    <div className="container-fluid h1 center">
-      <div className="row">
-        <div className="col-md-12 sm-12 justify-content-center">
-          <h1 className="center rounded">Hi, I'm Trish.</h1>
+    < div className="container-fluid">
+      <div className=" h1 center">
+        <div className="row">
+          <div className="col-md-12 sm-12 justify-content-center">
+            <h1 className="center rounded">Hi, I'm Trish.</h1>
+          </div>
         </div>
-        </div>
-    </div>
-    <span className="border"><img className="img rounded rounded-bottom" src={trish1} alt="whoops"/></span>
-    <div className="container-fluid background rounded about">
-        
+      </div>
       <div className="row">
-        <div className="col-md-12 sm-12 bg justify-content-center">
-          <p className="center background rounded">I am a full stack developer with a background in management and office administration. This versatile history has embedded strong beliefs in teamwork, critical thinking and attention to detail within me.
-          <br/>
-          <br/>
+      <img className="img rounded" src={trish1} alt="whoops" />
+      </div>
+      <div className=" background rounded about">
+
+        <div className="row">
+          <div className="col-md-12 sm-12 bg justify-content-center">
+            <p className="center background rounded">I am a full stack developer with a background in management and office administration. This versatile history has embedded strong beliefs in teamwork, critical thinking and attention to detail within me.
+          <br />
+              <br />
            Born and raised in Seattle, I have witnessed this industry bloom in one of the country's tech meccas over the past 20 years. I am excited to play my own role within this exciting, ever-changing and growing world!
-          <br/>
-          <br/>
-          <br/>
-           <strong>Technical Skills</strong>
-          <br/>
-          <br/>
+          <br />
+              <br />
+              <br />
+              <strong>Technical Skills</strong>
+              <br />
+              <br />
            HTML/CSS/Dynamic Generation
-          <br/>
+          <br />
            JacaScript/jQuery
-          <br/>
+          <br />
            ReactJS/JSX
-          <br/>
+          <br />
            Node
-          <br/>
+          <br />
            Express Servers
-          <br/>
+          <br />
            MySQL/Sequenlize
-          <br/>
+          <br />
            Mongo/Mongoose</p>
+          </div>
         </div>
       </div>
     </div>
-    </>
   );
 };
 

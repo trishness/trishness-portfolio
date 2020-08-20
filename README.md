@@ -13,3 +13,9 @@ react-scripts
 create-react-app
 
 Deployed Site:<br>
+https://arcane-everglades-34118.herokuapp.com/
+
+GitHub Repository:<br>
+https://github.com/trishness/trishness-portfolio
+
+![alt text](/public/reactport.jpg?raw=true)
