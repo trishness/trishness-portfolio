@@ -2,10 +2,10 @@ import React from "react";
 // import { Col, Row, Container } from "../components/Grid";
 // import Carousel from "../components/Carousel"
 import "./style.css"
-import trish from "../components/Carousel/trish.jpg";
+import trishboat from "../components/Carousel/trishboat.jpg";
 import trish1 from "../components/Carousel/trish1.jpg";
 import trish3 from "../components/Carousel/trish3.jpg";
-// import "./About.css"
+import "./About.css"
 
 const About = () => {
   return (
@@ -17,8 +17,10 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="row">
+      <div className="row images">
+      <img className="img rounded" src={trishboat} alt="whoops" />
       <img className="img rounded" src={trish1} alt="whoops" />
+      <img className="img rounded" src={trish3} alt="whoops" />
       </div>
       <div className=" background rounded about">
 

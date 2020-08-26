@@ -6,12 +6,33 @@ import budgettracker from "./budgettracker.jpg"
 import burger3 from "./burger3.jpg"
 import employeedirectory from "./employeedirectory.jpg"
 import note3 from "./note3.jpg"
+import pawsitivity1 from "./pawsitivity1.jpg"
 import style from "./style.css"
 
 function Projects() {
     return (
       <>
         <div className="card-deck">
+        <div className="card">
+      <div className="img-container">
+        <img
+          alt="Whoops"
+          className="img-thumbnail image-fluid rounded mx-auto d-block"
+          src={pawsitivity1}
+        />
+      </div>
+      <div className="content">
+        <h4><strong>Pawsitivity</strong></h4>
+          <p>
+          An application to swipe through real-time adoptable pets based on your location, preferences and environment. Sign up as a shelter to list adoptable pets and get in contact with potential adopters.
+          </p>
+          <div className="cardBtn">
+          <a href="https://pawsitivity-atack.herokuapp.com" class="btn btn-primary">Deployed Site</a>
+          <a href="https://github.com/arielbs1991/pawsitivity-front-end" class="btn btn-primary">GitHub</a>
+          </div>
+      </div>
+    </div>
+    <br></br>
             <div className="card">
       <div className="img-container">
         <img
@@ -43,7 +64,7 @@ function Projects() {
       <div className="content">
       <h4><strong>WANDER</strong></h4>
           <p>
-            A project that helps a PNW user find a randomized hike for a new outdoor adventure, complete with hike information and pertinent weather conditions.
+            A project that helps a PNW user find a randomized hike for a new outdoor adventure, complete with hike information, Google Maps and pertinent weather conditions.
           </p>
           <div className="cardBtn">
           <a href="https://codysamuels.github.io/wander/" className="btn btn-primary">Deployed Site</a>
@@ -52,6 +73,10 @@ function Projects() {
       </div>
     </div>
     <br></br>
+    </div>
+    <br></br>
+    <br></br>
+    <div className="card-deck">
     <div className="card">
         <div className="img-container">
         <img
@@ -71,10 +96,7 @@ function Projects() {
           </div>
       </div>
     </div>
-    </div>
     <br></br>
-    <br></br>
-    <div className="card-deck">
     <div className="card">
         <div className="img-container">
         <img
@@ -114,27 +136,7 @@ function Projects() {
           </div>
       </div>
     </div>
-    <br></br>
-    <div className="card">
-        <div className="img-container">
-        <img
-          alt="Wander"
-          className="img-thumbnail image-fluid rounded mx-auto d-block"
-          src={burger3}
-        />
-      </div>
-      <div className="content">
-      <h4><strong>Burger App</strong></h4>
-          <p>
-            While very basic in functionality, my first experience with dynamically creating functional and editable sites with Handlebars alongside servers and MySQL databases.
-          </p>
-          <div className="cardBtn">
-          <a href="https://fierce-dawn-49625.herokuapp.com/" className="btn btn-primary">Deployed Site</a>
-          <a href="https://github.com/trishness/burger" className="btn btn-primary">GitHub</a>
-          </div>
-      </div>
-    </div>
-        </div>
+  </div>
         </>
     )
 }
