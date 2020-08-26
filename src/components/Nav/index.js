@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom"
 import style from "./style.css"
-import resume from "./resume.pdf"
+import TNResume from "./TNResume.pdf"
 
 function Nav() {
     return (
@@ -27,7 +27,7 @@ function Nav() {
                             <a className="nav-link" href="https://www.linkedin.com/in/trish-ness-39593544" target="_blank">LinkedIn</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href={resume} target="_blank">Resume</a>
+                            <a className="nav-link" href={TNResume} target="_blank">Resume</a>
                         </li>
                     </ul>
                 </div>
