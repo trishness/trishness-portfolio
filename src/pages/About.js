@@ -36,19 +36,38 @@ const About = () => {
               <strong>Technical Skills</strong>
               <br />
               <br />
-           HTML/CSS/Dynamic Generation
+          HTML5
           <br />
-           JavaScript/jQuery
+          CSS3
           <br />
-           ReactJS/JSX
+          JavaScript
           <br />
-           Node
+          ReactJS
           <br />
-           Express Servers
+          JSX
           <br />
-           MySQL/Sequenlize
+          Node
           <br />
-           Mongo/Mongoose</p>
+          JQuery
+          <br />
+           Express
+          <br />
+           MySQL/Sequelize
+          <br />
+           MongoDB/Mongoose
+          <br />
+          Axios
+          <br />
+          Handlebars
+          <br />
+          Bootstrap
+          <br />
+          Foundation
+          <br />
+          Materialize
+          <br />
+          AntD
+          <br /></p>
           </div>
         </div>
       </div>
